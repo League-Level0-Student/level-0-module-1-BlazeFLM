@@ -9,7 +9,13 @@ public class Unbirthday {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-JOptionPane.showInputDialog("f");
+String input = JOptionPane.showInputDialog("Is it your birthday? Give me the month and day with the slash in between.");
+String date = "5/25";
+	if (input .equals(date)) {
+		JOptionPane.showMessageDialog(null, "Happy Birthday!");
+	} else {
+		JOptionPane.showMessageDialog(null," vErY mErRy UnBiRtHdAy");
+	}
 	}
 
 }
