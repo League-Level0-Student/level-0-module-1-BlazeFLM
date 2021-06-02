@@ -11,7 +11,7 @@ public class TheRiddler {
 		// 1. Make a variable to hold the score
 		int score = 0;
 		// 3. Ask the user a riddle. Here are some ideas: bit.ly/some-riddles
-		  String answer1 = JOptionPane.showInputDialog("A man was outside in the rain without an umbrella or hat. \n His hair didn't get wet. Why? ");
+		  String answer1 = JOptionPane.showInputDialog("A man was outside in the rain without an umbrella or hat. \n His head didn't get wet. Why? ");
 		  
 		  // 4. If they got the answer right, pop up "correct!" and increase the score by one
 		if(answer1.equals ("He was bald")) {
